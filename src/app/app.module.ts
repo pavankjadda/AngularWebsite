@@ -16,8 +16,8 @@ import {RouterModule} from '@angular/router';
   ],
   imports: [
     BrowserModule,
+    RouterModule,
     LayoutModule,
-    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
