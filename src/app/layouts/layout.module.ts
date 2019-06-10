@@ -12,7 +12,12 @@ import {MainComponent} from './main/main.component';
     CommonModule,
     RouterModule
   ],
-  declarations: [HeaderComponent, FooterComponent, MainComponent],
+  declarations:
+    [
+    HeaderComponent,
+    FooterComponent,
+    MainComponent
+    ],
   exports: [MainComponent]
 })
 export class LayoutModule {

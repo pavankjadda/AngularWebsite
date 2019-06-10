@@ -5,6 +5,7 @@ import {AppComponent} from './app.component';
 import {LayoutModule} from './layouts/layout.module';
 import {HomeComponent} from './layouts/home/home.component';
 import {PageNotFoundComponent} from './layouts/pagenotfound/pagenotfound.component';
+import {RouterModule} from '@angular/router';
 
 @NgModule({
   declarations:
@@ -15,7 +16,8 @@ import {PageNotFoundComponent} from './layouts/pagenotfound/pagenotfound.compone
   ],
   imports: [
     BrowserModule,
-    LayoutModule
+    LayoutModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
