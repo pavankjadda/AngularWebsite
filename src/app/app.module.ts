@@ -7,6 +7,7 @@ import {HomeComponent} from './layouts/home/home.component';
 import {PageNotFoundComponent} from './layouts/pagenotfound/pagenotfound.component';
 import {RouterModule} from '@angular/router';
 import {AppRoutingModule} from './app-routing.module';
+import {PagesModule} from './pages/pages.module';
 
 @NgModule({
   declarations:
@@ -19,6 +20,7 @@ import {AppRoutingModule} from './app-routing.module';
     BrowserModule,
     RouterModule,
     LayoutModule,
+    PagesModule,
     AppRoutingModule
   ],
   providers: [],
