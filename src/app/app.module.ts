@@ -8,6 +8,7 @@ import {PageNotFoundComponent} from './layouts/pagenotfound/pagenotfound.compone
 import {RouterModule} from '@angular/router';
 import {AppRoutingModule} from './app-routing.module';
 import {PagesModule} from './pages/pages.module';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations:
@@ -21,9 +22,13 @@ import {PagesModule} from './pages/pages.module';
     RouterModule,
     LayoutModule,
     PagesModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule
+{
+
+}
