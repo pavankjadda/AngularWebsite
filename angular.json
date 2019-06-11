@@ -25,7 +25,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/creative.min.js",
+              "src/assets/js/jquery.magnific-popup.min.js"
+            ]
           },
           "configurations": {
             "production": {
