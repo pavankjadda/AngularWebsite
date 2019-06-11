@@ -4,6 +4,7 @@ import {HomeComponent} from './layouts/home/home.component';
 import {AngularComponent} from './pages/angular/angular.component';
 import {JavaComponent} from './pages/java/java.component';
 import {OtherComponent} from './pages/other/other.component';
+import {PageNotFoundComponent} from './layouts/pagenotfound/pagenotfound.component';
 
 const routes: Routes=[
   {
@@ -25,6 +26,10 @@ const routes: Routes=[
   {
     path: 'other',
     component: OtherComponent
+  },
+  {
+    path: '*',
+    component: PageNotFoundComponent
   }
 ];
 
