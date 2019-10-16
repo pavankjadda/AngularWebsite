@@ -35,7 +35,6 @@
             "styles": [
               "src/styles.css"
             ],
-
             "scripts": [
               "./node_modules/startbootstrap-creative/vendor/jquery/jquery.js",
               "./node_modules/startbootstrap-creative/vendor/bootstrap/js/bootstrap.bundle.min.js",
@@ -129,8 +128,13 @@
               "devServerTarget": "AngularWebsite:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "AngularWebsite"
 }
