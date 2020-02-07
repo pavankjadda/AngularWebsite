@@ -5,10 +5,9 @@ import {CommonModule} from '@angular/common';
 import {HeaderComponent} from './header/header.component';
 import {FooterComponent} from './footer/footer.component';
 import {MainComponent} from './main/main.component';
-import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {library} from '@fortawesome/fontawesome-svg-core';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {faGlobe, faLaptopCode, faMobile} from '@fortawesome/free-solid-svg-icons';
-
 
 @NgModule({
   imports: [

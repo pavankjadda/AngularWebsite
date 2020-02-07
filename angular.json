@@ -34,7 +34,7 @@
               ]
             },
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": [
               "./node_modules/startbootstrap-creative/vendor/jquery/jquery.js",
@@ -104,7 +104,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -144,5 +144,10 @@
   "defaultProject": "AngularWebsite",
   "cli": {
     "analytics": false
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
   }
 }

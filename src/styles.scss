@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import  "~bootstrap/dist/css/bootstrap.min";
+
+@import "~startbootstrap-creative/css/creative.scss";
+@import "~startbootstrap-creative/vendor/magnific-popup/magnific-popup.scss";
+
+/* Site specific scss files*/
+@import "~assets/scss/_variables.scss";
+
+@import "~assets/scss/_global.scss";
+@import "~assets/scss/_navbar.scss";
+@import "~assets/scss/_masthead.scss";
+@import "~assets/scss/_portfolio.scss";
+
+$fa-font-path: "~font-awesome/fonts";
