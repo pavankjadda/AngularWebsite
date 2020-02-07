@@ -141,5 +141,8 @@
       }
     }
   },
-  "defaultProject": "AngularWebsite"
+  "defaultProject": "AngularWebsite",
+  "cli": {
+    "analytics": false
+  }
 }
