@@ -1,6 +1,7 @@
 {
   "name": "angular-website",
   "version": "2.0.0",
+  "exports": "./main.js",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --watch",
