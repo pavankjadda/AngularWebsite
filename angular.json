@@ -25,23 +25,12 @@
             ],
             "stylePreprocessorOptions": {
               "includePaths": [
-                "./node_modules/startbootstrap-creative/scss/_global.scss",
-                "./node_modules/startbootstrap-creative/scss/_masthead.scss",
-                "./node_modules/startbootstrap-creative/scss/_navbar.scss",
-                "./node_modules/startbootstrap-creative/scss/_portfolio.scss",
-                "./node_modules/startbootstrap-creative/scss/_variables.scss",
-                "./node_modules/startbootstrap-creative/scss/creative.scss"
               ]
             },
             "styles": [
               "src/styles.scss"
             ],
             "scripts": [
-              "./node_modules/startbootstrap-creative/vendor/jquery/jquery.js",
-              "./node_modules/startbootstrap-creative/vendor/bootstrap/js/bootstrap.bundle.min.js",
-              "./node_modules/startbootstrap-creative/vendor/jquery-easing/jquery.easing.min.js",
-              "./node_modules/startbootstrap-creative/vendor/magnific-popup/jquery.magnific-popup.min.js",
-              "./node_modules/startbootstrap-creative/js/creative.js"
             ]
           },
           "configurations": {
