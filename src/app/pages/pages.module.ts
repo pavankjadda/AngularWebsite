@@ -10,4 +10,5 @@ import {OtherComponent} from './other/other.component';
     CommonModule
   ]
 })
-export class PagesModule { }
+export class PagesModule {
+}
