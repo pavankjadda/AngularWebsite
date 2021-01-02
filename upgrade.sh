@@ -5,7 +5,7 @@ git push origin development
 
 ### Upgrade
 ng update --all --force
-npm install zone.js@0.9.1 typescript@3.5.3 --save
+npm i typescript@4.0.5 --save
 npm install
 npm audit fix
 
