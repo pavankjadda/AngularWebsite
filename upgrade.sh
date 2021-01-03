@@ -4,9 +4,8 @@ git commit -m "Before Upgrade"
 git push origin development
 
 ### Upgrade
-ng update --all --force
+npm update
 npm i typescript@4.0.5 --save
-npm install
 npm audit fix
 
 ### After upgrade
