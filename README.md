@@ -1,6 +1,6 @@
-# Angular Website
+# The personal website built with Angular
 
-Website rebuilt using Angular 
+Website built using the latest Angular version 
 
 ### How to deploy?
 1. Build project using the following command
