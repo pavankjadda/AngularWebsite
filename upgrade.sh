@@ -5,7 +5,7 @@ git push origin development
 
 ### Upgrade
 npm update
-npm i typescript@4.0.5 --save
+npm i typescript@4.1.5 --save
 npm audit fix
 
 ### After upgrade
