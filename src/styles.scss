@@ -1,3 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import "~startbootstrap-creative/src/scss/styles.scss";
+@import "~bootstrap/scss/bootstrap";
+
+
+//Import custom CSS files
+@import "src/assets/scss/custom-buttons";
+@import "src/assets/scss/custom-colors";
