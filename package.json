@@ -1,6 +1,6 @@
 {
   "name": "angular-website",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "exports": "./main.js",
   "scripts": {
     "ng": "ng",
@@ -26,7 +26,7 @@
     "bootstrap": "^5.1.3",
     "jquery": "^3.6.0",
     "rxjs": "^7.5.2",
-    "startbootstrap-creative": "^7.0.4",
+    "startbootstrap-creative": "^7.0.5",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"
   },
