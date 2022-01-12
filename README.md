@@ -5,7 +5,7 @@ Website built using the latest Angular version
 ### How to deploy?
 1. Build project using the following command
     ```shell script
-    ng build --prod --output-path docs 
+    ng build --configuration production --output-path docs 
     ```
 2. Copying **dist/AngularWebsite** folder contents to pavankjadda.github.io project directory (in local machine)
     ```shell script
