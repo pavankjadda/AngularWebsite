@@ -8,6 +8,7 @@ import {RouterModule} from '@angular/router';
 import {AppRoutingModule} from './app-routing.module';
 import {PagesModule} from './pages/pages.module';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
     LayoutModule,
     PagesModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
