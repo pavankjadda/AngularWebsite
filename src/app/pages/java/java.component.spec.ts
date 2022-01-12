@@ -1,6 +1,6 @@
-import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import {JavaComponent} from './java.component';
+import { JavaComponent } from './java.component';
 
 describe('JavaComponent', () => {
   let component: JavaComponent;
@@ -8,9 +8,8 @@ describe('JavaComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ JavaComponent ]
-    })
-    .compileComponents();
+      declarations: [JavaComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

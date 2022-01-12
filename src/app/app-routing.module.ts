@@ -1,43 +1,40 @@
-import {NgModule} from '@angular/core';
-import {RouterModule, Routes} from '@angular/router';
-import {HomeComponent} from './pages/home/home.component';
-import {AngularComponent} from './pages/angular/angular.component';
-import {JavaComponent} from './pages/java/java.component';
-import {OtherComponent} from './pages/other/other.component';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './pages/home/home.component';
+import { AngularComponent } from './pages/angular/angular.component';
+import { JavaComponent } from './pages/java/java.component';
+import { OtherComponent } from './pages/other/other.component';
 
-const routes: Routes=[
+const routes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    component: HomeComponent,
   },
   {
     path: 'home',
-    component: HomeComponent
+    component: HomeComponent,
   },
   {
     path: 'angular',
-    component: AngularComponent
+    component: AngularComponent,
   },
   {
     path: 'java',
-    component: JavaComponent
+    component: JavaComponent,
   },
   {
     path: 'other',
-    component: OtherComponent
+    component: OtherComponent,
   },
   {
     path: '*',
-    component: HomeComponent
-  }
+    component: HomeComponent,
+  },
 ];
 
-@NgModule( {
+@NgModule({
   imports: [RouterModule.forRoot(routes)],
 
-  exports: [RouterModule]
-} )
-
-export class AppRoutingModule
-{
-}
+  exports: [RouterModule],
+})
+export class AppRoutingModule {}

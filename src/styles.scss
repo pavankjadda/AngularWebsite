@@ -1,18 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import "~startbootstrap-creative/src/scss/styles.scss";
-@import "~bootstrap/scss/bootstrap";
-
+@import '~startbootstrap-creative/src/scss/styles.scss';
+@import '~bootstrap/scss/bootstrap';
 
 //Import custom CSS files
-@import "src/assets/scss/custom-buttons";
-@import "src/assets/scss/custom-colors";
+@import 'src/assets/scss/custom-buttons';
+@import 'src/assets/scss/custom-colors';
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
 }
