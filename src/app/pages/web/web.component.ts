@@ -25,7 +25,11 @@ import { Component } from '@angular/core';
               <div class='card-body' style='font-family: Arial, sans-serif'>
                 <ul>
                   <li>
-                    Developed Angular 10+ modules, components, services to process data and send HTTP requests to Spring
+                    Developed Angular 10+ application with Angular Material, Bootstrap and integrated with Spring Boot
+                    application
+                  </li>
+                  <li>
+                    Developed Angular modules, components, services to process data and send HTTP requests to Spring
                     Boot application.
                   </li>
                   <li>
@@ -38,7 +42,7 @@ import { Component } from '@angular/core';
                   <li>Implemented CICD setup with Jenkins to deploy Angular application in Docker swarm cluster</li>
                 </ul>
               </div>
-              <div class='card-footer'><b>Technologies:</b>Angular 10+, Bootstrap 4.x, Angular Material, CSS, HTML5
+              <div class='card-footer'><b>Technologies: </b>Angular 10+, Bootstrap 4.x, Angular Material, CSS, HTML5
               </div>
             </div>
           </div>
@@ -120,7 +124,7 @@ import { Component } from '@angular/core';
                 </ul>
               </div>
               <div class='card-footer'>
-                <b>Technologies:</b>AngularJS, jQuery, Ajax, JavaScript, Angular Data Grid, CSS, HTML5
+                <b>Technologies: </b>Angular, jQuery, Ajax, JavaScript, Angular Data Grid, CSS, HTML5
               </div>
             </div>
           </div>
@@ -154,7 +158,7 @@ import { Component } from '@angular/core';
                 </ul>
               </div>
               <div class='card-footer'>
-                <b>Technologies:</b> AngularJS, jQuery, JavaScript, Bootstrap 3.x, CSS3 and HTML5
+                <b>Technologies: </b> AngularJS, jQuery, JavaScript, Bootstrap 3.x, CSS3 and HTML5
               </div>
             </div>
           </div>
@@ -223,7 +227,8 @@ import { Component } from '@angular/core';
     </div>
 
   `,
-  styles: []
+  styles: [`
+  `]
 })
 export class WebComponent {
   constructor() {
