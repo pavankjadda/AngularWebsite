@@ -1,30 +1,34 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
-import { AngularComponent } from './pages/angular/angular.component';
 import { JavaComponent } from './pages/java/java.component';
 import { OtherComponent } from './pages/other/other.component';
+import { WebComponent } from './pages/web/web.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent,
+    component: HomeComponent
   },
   {
     path: 'home',
-    component: HomeComponent,
+    component: HomeComponent
   },
   {
     path: 'angular',
-    component: AngularComponent,
+    redirectTo: 'web'
+  },
+  {
+    path: 'web',
+    component: WebComponent
   },
   {
     path: 'java',
-    component: JavaComponent,
+    component: JavaComponent
   },
   {
     path: 'other',
-    component: OtherComponent,
+    component: OtherComponent
   },
   {
     path: '*',
