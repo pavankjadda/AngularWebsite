@@ -1,14 +1,12 @@
 ### Before upgrade
 git add .
 git commit -m "Before Upgrade"
-git push origin development
+git push
 
 ### Upgrade
-npm update
-npm i typescript@4.1.5 --save
-npm audit fix
+npm update --force
 
 ### After upgrade
 git add .
 git commit -m "After Upgrade"
-git push origin development
+git push
