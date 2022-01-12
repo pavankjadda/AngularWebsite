@@ -2,10 +2,7 @@
 
 @import '~startbootstrap-creative/src/scss/styles.scss';
 @import '~bootstrap/scss/bootstrap';
-
-//Import custom CSS files
-@import 'src/assets/scss/custom-buttons';
-@import 'src/assets/scss/custom-colors';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 html,
 body {
