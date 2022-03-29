@@ -1,6 +1,6 @@
 {
   "name": "angular-website",
-  "version": "5.0.0",
+  "version": "5.1.0",
   "exports": "./main.js",
   "scripts": {
     "ng": "ng",
